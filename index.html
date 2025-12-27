@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APatch Plus - 基于 KernelSU 的增强框架</title>
+    <title>APatch Plus - 基于 FolkPatch 的增强框架</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -782,7 +782,7 @@
                     <a href="#guide">使用指南</a>
                     <a href="#status">状态</a>
                     <a href="https://github.com/Kdufse/APatch-Plus" target="_blank">GitHub</a>
-                    <a href="https://kernelsu.org" target="_blank">KernelSU</a>
+                    <a href="https://apatch.dev" target="_blank">APatch</a>
                 </div>
                 
                 <div class="nav-actions">
@@ -809,7 +809,7 @@
         
         <div class="container">
             <h1>APatch Plus</h1>
-            <p class="hero-subtitle">基于 KernelSU 的增强型 Android 内核级 Root 解决方案，提供更强大的模块化扩展与系统定制能力</p>
+            <p class="hero-subtitle">基于 FolkPatch 修改的 Android 内核级 Root 解决方案</p>
             
             <div class="hero-badges">
                 <div class="badge badge-primary">
@@ -833,55 +833,6 @@
                 <a href="https://github.com/Kdufse/APatch-Plus" target="_blank" class="btn btn-secondary">
                     <i class="fab fa-github"></i> GitHub 仓库
                 </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- 特性区域 -->
-    <section class="features" id="features">
-        <div class="container">
-            <h2 class="section-title animate-on-scroll">核心特性</h2>
-            <p class="section-subtitle animate-on-scroll">APatch Plus 在 KernelSU 的基础上进行了深度优化与功能扩展</p>
-            
-            <div class="features-grid">
-                <div class="feature-card feature-1 animate-on-scroll">
-                    <div class="feature-icon">
-                        <i class="fas fa-tachometer-alt"></i>
-                    </div>
-                    <h3 class="feature-title">性能优化</h3>
-                    <p class="feature-desc">深度优化的内核补丁，减少系统开销，提升运行效率。针对现代 Android 系统进行了特别优化，确保流畅体验。</p>
-                    <div class="feature-tags">
-                        <span class="tag">低开销</span>
-                        <span class="tag">高性能</span>
-                        <span class="tag">节能</span>
-                    </div>
-                </div>
-                
-                <div class="feature-card feature-2 animate-on-scroll">
-                    <div class="feature-icon">
-                        <i class="fas fa-puzzle-piece"></i>
-                    </div>
-                    <h3 class="feature-title">模块化扩展</h3>
-                    <p class="feature-desc">增强的模块管理系统，支持动态加载/卸载模块。提供完整的 API 接口，方便开发者创建自定义功能模块。</p>
-                    <div class="feature-tags">
-                        <span class="tag">热加载</span>
-                        <span class="tag">API 丰富</span>
-                        <span class="tag">易开发</span>
-                    </div>
-                </div>
-                
-                <div class="feature-card feature-3 animate-on-scroll">
-                    <div class="feature-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3 class="feature-title">安全增强</h3>
-                    <p class="feature-desc">改进的安全模型，细粒度的权限控制。支持 SELinux 策略修改，提供更安全的 Root 环境。</p>
-                    <div class="feature-tags">
-                        <span class="tag">权限控制</span>
-                        <span class="tag">SELinux</span>
-                        <span class="tag">安全审计</span>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -949,89 +900,6 @@
         </div>
     </section>
 
-    <!-- 状态区域 -->
-    <section class="status" id="status">
-        <div class="container">
-            <h2 class="section-title animate-on-scroll">项目状态</h2>
-            <p class="section-subtitle animate-on-scroll">APatch Plus 的开发进展与兼容性状态</p>
-            
-            <div class="stats">
-                <div class="stat-item animate-on-scroll">
-                    <div class="stat-number" id="deviceCount">120+</div>
-                    <div class="stat-label">支持设备</div>
-                </div>
-                
-                <div class="stat-item animate-on-scroll">
-                    <div class="stat-number" id="androidVersion">8-16</div>
-                    <div class="stat-label">Android 版本</div>
-                </div>
-                
-                <div class="stat-item animate-on-scroll">
-                    <div class="stat-number" id="moduleCount">85+</div>
-                    <div class="stat-label">可用模块</div>
-                </div>
-                
-                <div class="stat-item animate-on-scroll">
-                    <div class="stat-number" id="commitCount">650+</div>
-                    <div class="stat-label">代码提交</div>
-                </div>
-            </div>
-            
-            <div class="status-cards">
-                <div class="status-card status-good animate-on-scroll">
-                    <div class="status-header">
-                        <div class="status-icon">
-                            <i class="fas fa-check-circle"></i>
-                        </div>
-                        <h3 class="status-title">核心功能</h3>
-                    </div>
-                    <p class="status-desc">基本 Root 功能、模块管理、权限控制等核心功能已完全实现并稳定运行。</p>
-                    <div class="progress-bar">
-                        <div class="progress-fill" id="coreProgress" style="width: 100%"></div>
-                    </div>
-                    <div class="progress-text">
-                        <span>完成度</span>
-                        <span>100%</span>
-                    </div>
-                </div>
-                
-                <div class="status-card status-good animate-on-scroll">
-                    <div class="status-header">
-                        <div class="status-icon">
-                            <i class="fas fa-tools"></i>
-                        </div>
-                        <h3 class="status-title">开发者工具</h3>
-                    </div>
-                    <p class="status-desc">SDK、文档和调试工具已基本完善，方便开发者创建自定义模块。</p>
-                    <div class="progress-bar">
-                        <div class="progress-fill" id="devProgress" style="width: 90%"></div>
-                    </div>
-                    <div class="progress-text">
-                        <span>完成度</span>
-                        <span>90%</span>
-                    </div>
-                </div>
-                
-                <div class="status-card status-warning animate-on-scroll">
-                    <div class="status-header">
-                        <div class="status-icon">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
-                        <h3 class="status-title">设备兼容性</h3>
-                    </div>
-                    <p class="status-desc">持续增加对新设备的支持，部分新机型仍在适配中。</p>
-                    <div class="progress-bar">
-                        <div class="progress-fill" id="compatProgress" style="width: 75%"></div>
-                    </div>
-                    <div class="progress-text">
-                        <span>完成度</span>
-                        <span>75%</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- 页脚 -->
     <footer>
         <div class="container">
@@ -1040,7 +908,7 @@
                     <div class="footer-logo">
                         <i class="fas fa-code-branch"></i> APatch Plus
                     </div>
-                    <p class="footer-desc">基于 KernelSU 的增强型 Android 内核级 Root 解决方案，提供更强大的模块化扩展与系统定制能力。</p>
+                    <p class="footer-desc">基于 FolkPatch 的增强型 Android 内核级 Root 解决方案</p>
                     <div class="social-links">
                         <a href="https://github.com/Kdufse/APatch-Plus" class="social-link" target="_blank" aria-label="GitHub">
                             <i class="fab fa-github"></i>
@@ -1060,30 +928,19 @@
                 <div class="footer-links">
                     <h4>资源</h4>
                     <ul>
-                        <li><a href="https://github.com" target="_blank">源代码</a></li>
-                        <li><a href="https://github.com/releases" target="_blank">下载</a></li>
-                        <li><a href="https://github.com/wiki" target="_blank">文档</a></li>
+                        <li><a href="https://github.com/Kdufse/APatch-Plus" target="_blank">源代码</a></li>
+                        <li><a href="https://github.com/Kdufse/APatch-Plus/releases/latest" target="_blank">下载</a></li>
                         <li><a href="https://github.com/issues" target="_blank">问题反馈</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-links">
-                    <h4>社区</h4>
-                    <ul>
-                        <li><a href="https://forum.xda-developers.com" target="_blank">XDA 论坛</a></li>
-                        <li><a href="https://t.me" target="_blank">Telegram 群组</a></li>
-                        <li><a href="https://discord.com" target="_blank">Discord 服务器</a></li>
-                        <li><a href="https://github.com/discussions" target="_blank">GitHub 讨论</a></li>
+                        <li><a href="https://t.me/APatchPlus" taget="_blank">Telegram群组</a><li>
                     </ul>
                 </div>
                 
                 <div class="footer-links">
                     <h4>相关项目</h4>
                     <ul>
-                        <li><a href="https://kernelsu.org" target="_blank">KernelSU</a></li>
-                        <li><a href="https://magisk.me" target="_blank">Magisk</a></li>
-                        <li><a href="https://github.com/topjohnwu" target="_blank">John Wu</a></li>
-                        <li><a href="https://github.com" target="_blank">贡献者</a></li>
+                        <li><a href="https://github.com/matsuzaka-yuki/FolkPatch" target="_blank">FolkPatch</a></li>
+                        <li><a href="https://github.com/bmax121/apatch" target="_blank">APatch</a></li>
+                        <li><a href="https://github.com/bmax121/KernelPatch" target="_blank">KernelPatch</a></li>
                     </ul>
                 </div>
             </div>
